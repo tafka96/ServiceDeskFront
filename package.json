@@ -31,7 +31,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "types": "src/Service/responses.d.ts",
   "browserslist": {
     "production": [
       ">0.2%",

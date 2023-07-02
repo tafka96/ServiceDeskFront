@@ -9,7 +9,7 @@ function TicketList(props) {
    {tickets.map((ticket) => (
     <NavLink key={ticket.id} to={`/tickets/${ticket.id}`}>
      <li>
-      <img src={`../${ticket.priority}.png`} alt="No logo found" />
+      <img src={`../${ticket.priority}.png`} alt={`Logo for ${ticket.priority}`} />
       <span>{ticket.title}</span>
      </li>
     </NavLink>
