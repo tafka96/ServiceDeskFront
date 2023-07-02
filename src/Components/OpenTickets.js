@@ -9,7 +9,7 @@ export default function OpenTickets() {
 
 
  return (
-  <div className="open-tickets">
+  <div data-testid="open-tickets-div" className="open-tickets">
    <span>Open Tickets:</span>
    {!isLoading && tickets.length > 0 && <TicketList tickets={tickets} />}
    {isLoading && <ThreeDots color="#00BFFF" height={100} width={100} />}
